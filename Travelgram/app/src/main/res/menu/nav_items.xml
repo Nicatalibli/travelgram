@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_world"
+        android:icon="@drawable/world"
+        android:title="@string/nav_world" />
+    <item
+        android:id="@+id/nav_binoculars"
+        android:icon="@drawable/binoculars"
+        android:title="@string/van_binoculars" />
+    <item
+        android:id="@+id/nav_camera"
+        android:icon="@drawable/camera"
+        android:title="@string/nav_camera" />
+    <item
+        android:id="@+id/nav_trend"
+        android:icon="@drawable/trend"
+        android:title="@string/nav_trend" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile"
+        android:title="@string/nav_profile" />
+</menu>

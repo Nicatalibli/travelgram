@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">travelgram</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_world">World</string>
+    <string name="van_binoculars">Binoculars</string>
+    <string name="nav_camera">Camera</string>
+    <string name="nav_trend">Trend</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

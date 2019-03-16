@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    android:orientation="vertical"
+    tools:context=".activity.editprofile">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/editpr_userpofile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#8BC34A"
+        app:civ_shadow_radius="10"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <EditText
+        android:id="@+id/editpr_username"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_press"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Username Loading..."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editpr_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_press"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Full Name Loading..."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editpr_email"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_press"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="E-mail Loading..."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editpr_country"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_press"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Counrty Loading..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/editpr_save"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="editprsaveclick"
+        android:text="Save"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold" />
+
+</LinearLayout>

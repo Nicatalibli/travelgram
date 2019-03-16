@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.loginpage">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3f51b5"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/loglogo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/logoforapp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/logemail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/common_google_signin_btn_text_dark_pressed"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textPostalAddress" />
+
+            <EditText
+                android:id="@+id/logpassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/common_google_signin_btn_text_dark_pressed"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/loglogin"
+                android:layout_width="194dp"
+                android:layout_height="35dp"
+                android:background="@drawable/rounded_button"
+                android:text="Login"
+                android:textColor="@color/common_google_signin_btn_text_dark_default" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/logsignup"
+                android:layout_width="173dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:onClick="clicklogsignup"
+                android:text="Sign up"
+                android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+            <Button
+                android:id="@+id/logforgerpassword"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_weight="0"
+                android:background="@drawable/rounded_button"
+                android:onClick="clickforgetpassword"
+                android:text="Forget Password?"
+                android:textColor="@color/common_google_signin_btn_text_dark_default" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
